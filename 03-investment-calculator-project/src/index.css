@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: radial-gradient(circle at top left, #2e3835, #0f1312);
+  color: #e1eeeb;
+  min-height: 100vh;
+  line-height: 1.6;
+}
+
+/* Header */
+#header {
+  text-align: center;
+  margin: 4rem auto;
+}
+
+#header img {
+  width: 5rem;
+  height: 5rem;
+  object-fit: contain;
+  background-color: transparent;
+  filter: drop-shadow(0 0 4px #94f0e3);
+}
+
+#header h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #d6f9ef;
+  margin-top: 1rem;
+  letter-spacing: 1px;
+}
+
+/* User Input */
+#user-input {
+  padding: 2rem;
+  max-width: 34rem;
+  margin: 2.5rem auto;
+  border-radius: 12px;
+  background: linear-gradient(180deg, #349f88, #246b58);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.input-group {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+#user-input label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 0.65rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #e0f5ee;
+}
+
+#user-input input {
+  width: 100%;
+  padding: 0.65rem;
+  border: 1px solid #9fe3d2;
+  border-radius: 6px;
+  background-color: rgba(255, 255, 255, 0.05);
+  color: #ffffff;
+  font-size: 1rem;
+  transition: border 0.2s ease, background-color 0.2s ease;
+}
+
+#user-input input:focus {
+  border-color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.1);
+  outline: none;
+}
+
+/* Result Table */
+#result {
+  max-width: 52rem;
+  margin: 3rem auto;
+  padding: 1.5rem;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.02);
+  backdrop-filter: blur(4px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  text-align: right;
+}
+
+#result thead {
+  font-size: 0.75rem;
+  color: #94f0e3;
+  border-bottom: 1px solid #5dd1b6;
+  padding-bottom: 0.5rem;
+}
+
+#result tbody {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 0.95rem;
+  color: #d0f0e9;
+}
+
+#result td, #result th {
+  padding: 0.75rem 1rem;
+  text-align: right;
+}
+
+/* Center class */
+.center {
+  text-align: center;
+}
