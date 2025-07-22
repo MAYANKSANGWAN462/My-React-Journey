@@ -35,7 +35,7 @@ node app.js
 ### 🌐 URLs
 
 - Frontend: [http://localhost:5173](http://localhost:5173)
-- Backend: [http://localhost:PORT](http://localhost:PORT) — replace `PORT` with the one defined in `app.js`.
+- Backend: [http://localhost:PORT](http://localhost:PORT) — replace `PORT` with the one defined in `app.js`. (Default: PORT => 3000)
 
 ---
 
