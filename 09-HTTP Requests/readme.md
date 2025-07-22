@@ -1,4 +1,4 @@
-# 🚀 Full Stack React + Node.js Project
+# 🚀 React + Node.js
 
 This is a full-stack project using **React (Vite)** for the frontend and **Node.js (Express)** for the backend. This README provides all the instructions to run the project locally or set it up in an automated environment like CI/CD.
 
